@@ -1,0 +1,1 @@
+1. select  staff_name,staff_sal,dept_code from staff_masters where dept_code in (20,30,40

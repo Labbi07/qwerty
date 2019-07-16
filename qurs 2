@@ -1,2 +1,0 @@
-22: Display the total number of lines present in the file friends.
-$ wc –l friends.txt

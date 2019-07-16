@@ -1,0 +1,11 @@
+create table customer_masters(customer_id number(5),customer_name varchar2(10),address varchar2(50),gender varchar2(2),age number(5),phone_no number(10),income number(10));
+insert into customer_masters values(&customer_id,&customer_name,&address,&gender,&age,&phone_no,&income);
+Enter value for customer_id: 6000
+Enter value for customer_name: ´john´
+Enter value for address: ´#115 chicago´
+Enter value for gender: ´M´
+Enter value for age: 25
+Enter value for phone_no: 7878776
+Enter value for income: 10000
+old   1: insert into customer_masters values(&customer_id,&customer_name,&address,&gender,&age,&phone_no,&income)
+new   1: insert into customer_masters values(6000,'john','#115 chicago','M',25,7878776,10000)
